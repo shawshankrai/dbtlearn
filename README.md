@@ -3,8 +3,12 @@ Welcome to your new dbt project!
 ### Using the starter project
 
 Try running the following commands:
+- dbt compile
+- dbt source freshness
+- dbt snapshot
 - dbt run
 - dbt test
+- dbt seed
 
 
 ### Resources:
