@@ -7,8 +7,10 @@ Try running the following commands:
 - dbt source freshness
 - dbt snapshot
 - dbt run
-- dbt test
+- dbt run --full-refresh --select fct_reviews # 
+- dbt test, dbt test --select dim_listings_cleansed
 - dbt seed
+- dbt deps ### installs dependencies
 
 
 ### Resources:
