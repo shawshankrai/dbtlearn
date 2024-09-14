@@ -3,7 +3,7 @@ Welcome to your new dbt project!
 ### Using the starter project
 
 Try running the following commands:
-- dbt compile
+- dbt compile,  can create analysis SQL in target
 - dbt source freshness
 - dbt snapshot
 - dbt run
@@ -11,6 +11,8 @@ Try running the following commands:
 - dbt test, dbt test --select dim_listings_cleansed
 - dbt seed
 - dbt deps ### installs dependencies
+- dbt docs generate
+- dbt docs serve ### serve docs
 
 
 ### Resources:
