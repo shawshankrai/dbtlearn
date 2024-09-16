@@ -7,12 +7,15 @@ Try running the following commands:
 - dbt source freshness
 - dbt snapshot
 - dbt run
-- dbt run --full-refresh --select fct_reviews # 
+- dbt run --full-refresh --select fct_reviews 
 - dbt test, dbt test --select dim_listings_cleansed
+- dbt test --select source:airbnb.listings
 - dbt seed
 - dbt deps ### installs dependencies
 - dbt docs generate
 - dbt docs serve ### serve docs
+- dbt run-operation dbt_logging, running macros
+- jinja comment {# log("debug message saves to log file, if true print on screen", info=True) #}
 
 
 ### Resources:
